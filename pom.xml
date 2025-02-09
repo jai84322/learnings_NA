@@ -1,0 +1,17 @@
+POM -> project object model
+it contains configuration (dependencies, build directory, source directory, test directory, plugin, goals)
+
+Elements of maven pom.xml
+1. project -> root element
+2. model version -> sub element
+3. groupid -> sub element -> specifies id of project group
+4. artifactid -> specifies the id for artifact ex:- war, jar, source || uniqueid is storedin artifact 
+5. version -> it specifies version of artifact under given group 
+
+Additional elements:
+1. packaging
+2. name 
+3. description
+4. url 
+5. dependencies
+6. scope -> defines scope of maven project/dependency -> compile provided runtime test system
